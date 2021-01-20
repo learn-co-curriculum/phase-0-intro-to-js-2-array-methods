@@ -456,12 +456,12 @@ to sink in!
 
 ## Conclusion
 
-![JavaScript Array Methods](https://curriculum-content.s3.amazonaws.com/phase-0/array-methods/javascript-array-methods.jpg)
-
 In this lesson, we've learned a variety of methods we can use to remove, add,
 and replace the elements in `Array`s. We've learned that some methods are
 _destructive_ and some are _nondestructive_. With this knowledge, you have the
 tools you need to manipulate `Array`s in very complex ways.
+
+![JavaScript Array Methods](https://curriculum-content.s3.amazonaws.com/phase-0/array-methods/javascript-array-methods.jpg)
 
 ## Resources
 

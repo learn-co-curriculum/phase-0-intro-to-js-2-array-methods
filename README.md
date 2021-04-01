@@ -23,7 +23,7 @@ returns.
 ## Add Elements to an Array
 
 We'll start with the JavaScript methods we can use to add elements to an array:
-`push()` and `unshift()`, which are _destructive_ methods, and the spread
+`.push()` and `.unshift()`, which are _destructive_ methods, and the spread
 operator, which is _nondestructive_.
 
 ### `.push()` and `.unshift()`
@@ -35,7 +35,7 @@ These two methods work in the same way:
 * they are _destructive_ methods
 
 The difference is that the `.push()` method adds elements to the end of an
-`Array` and `unshift()` adds them to the beginning of the array:
+`Array` and `.unshift()` adds them to the beginning of the array:
 
 ```js
 const superheroes = ['Catwoman', 'She-Hulk', 'Jessica Jones'];

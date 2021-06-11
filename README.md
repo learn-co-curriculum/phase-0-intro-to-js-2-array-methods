@@ -49,7 +49,7 @@ superheroes;
 const cities = ['New York', 'San Francisco'];
 
 cities.unshift('Boston', 'Chicago');
-// => 3
+// => 4
 
 cities;
 // => ["Boston", "Chicago", "New York", "San Francisco"]

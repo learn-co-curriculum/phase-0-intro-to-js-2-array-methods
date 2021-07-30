@@ -116,12 +116,12 @@ allCats;
 ```
 
 Note that, in both cases, we created a new `Array` instead of modifying the
-original one &mdash; our `coolCities` and `coolCats` `Array`s were untouched.
+original one — our `coolCities` and `coolCats` `Array`s were untouched.
 Because we didn't modify the original array, in order to save the results of our
 work we had to assign it to a variable.
 
 Be sure to experiment with the spread operator in [repl.it][] until you're
-comfortable with how it works &mdash; it will come in handy later!
+comfortable with how it works — it will come in handy later!
 
 ## Remove Elements from an Array
 
@@ -382,7 +382,7 @@ menu;
 // => ["Jalapeno Poppers", "Veggie Burger", "House Salad", "Teriyaki Tofu", "French Fries", "Onion Rings"]
 ```
 
-We aren't required to remove anything with `.splice()` &mdash; we can use it to
+We aren't required to remove anything with `.splice()` — we can use it to
 insert any number of elements anywhere within an `Array` by passing 0 as the
 second argument. Here we're adding new books to our library in alphabetical
 order:
@@ -419,7 +419,7 @@ cards;
 // => ["Ace of Spades", "Jack of Clubs", "Ace of Clubs", "Nine of Diamonds", "Three of Hearts"]
 ```
 
-Both this approach and `splice()` are destructive &mdash; they modify the
+Both this approach and `splice()` are destructive — they modify the
 original `Array`. There's a _nondestructive_ way to replace or add items at
 arbitrary points within an `Array`; to do it we need to combine the `slice()`
 method and the spread operator.

@@ -316,7 +316,8 @@ days;
 ```
 
 Notice that `.splice()` **both** mutated the original array (by removing a
-chunk) **and** returned a new array containing the removed chunk.
+chunk, leaving just `["Mon", "Tue"]`) **and** returned a new array containing
+the removed chunk.
 
 We can use a negative 'start' index with `splice()`, the same as with `slice()`:
 

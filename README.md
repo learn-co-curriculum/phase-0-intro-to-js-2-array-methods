@@ -72,14 +72,14 @@ copyOfCoolCities;
 //=> ["New York", "San Francisco"]
 ```
 
-> **Note about copying arrays in Javascript** You might wonder why we would do
-> this rather than just `copyOfCoolCities = coolCities`. The answer is that
-> `coolCities` _points to a location in memory_ and when you use the assignment
-> operator to create a copy, you create a second variable that points to the
-> _same_ location. What this means is that, if you change `copyOfCoolCities`,
-> `coolCities` is changed as well (and vice versa).
+You might wonder why we would do this rather than just
+`copyOfCoolCities = coolCities`. The answer is that `coolCities` _points to a
+location in memory_ and when you use the assignment operator to create a copy,
+you create a second variable that points to the _same_ location. What this means
+is that, if you change `copyOfCoolCities`, `coolCities` is changed as well (and
+vice versa).
 
-> **A Second note about copying arrays in JavaScript** Copying arrays in
+> **A note about copying arrays in JavaScript** Copying arrays in
 > JavaScript is complicated! Some methods of copying create _deep_ copies and
 > some create _shallow_ copies. Using the spread operator to copy an array
 > creates a shallow copy. What this means is that, if you use it to copy a
@@ -89,7 +89,7 @@ copyOfCoolCities;
 > versa). Don't worry too much about shallow and deep copies at this point: just
 > know that you can safely use the spread operator to clone _non-nested_ arrays.
 
-Note that, because the spread operator is an operator rather than a method, it
+Because the spread operator is an operator rather than a method, it
 works differently than `push()` and `unshift()`: in the example above, we're
 constructing an `Array` using _literal_ notation (i.e., typing the square
 brackets) and populating it by using the spread operator on the `Array` we want

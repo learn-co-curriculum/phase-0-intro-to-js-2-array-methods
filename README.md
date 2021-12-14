@@ -38,13 +38,13 @@ The difference is that the `.push()` method adds elements to the end of an
 `Array` and `.unshift()` adds them to the beginning of the array:
 
 ```js
-const superheroes = ["Catwoman", "She-Hulk", "Jessica Jones"];
+const superheroes = ["Catwoman", "Storm", "Jessica Jones"];
 
 superheroes.push("Wonder Woman");
 // => 4
 
 superheroes;
-// => ["Catwoman", "She-Hulk", "Jessica Jones", "Wonder Woman"]
+// => ["Catwoman", "Storm", "Jessica Jones", "Wonder Woman"]
 
 const cities = ["New York", "San Francisco"];
 
@@ -413,13 +413,13 @@ any number of elements anywhere within an `Array` by passing 0 as the second
 argument. Here we're adding new books to our library in alphabetical order:
 
 ```js
-const books = ["Bleak House", "David Copperfield", "Our Mutual Friend"];
+const books = ["The Bluest Eye", "Kindred", "The Grass Dancer"];
 
-books.splice(2, 0, "Great Expectations", "Oliver Twist");
+books.splice(2, 0, "Giovanni’s Room", "The Color Purple");
 // => []
 
 books;
-// => ["Bleak House", "David Copperfield", "Great Expectations", "Oliver Twist", "Our Mutual Friend"]
+// => ["The Bluest Eye", "Kindred", "Giovanni’s Room", "The Color Purple", "The Grass Dancer"]
 ```
 
 Notice that `.splice()` returns an empty `Array` when we provide a second

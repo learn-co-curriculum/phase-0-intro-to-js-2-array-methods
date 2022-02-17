@@ -16,7 +16,7 @@ elements.
 We discussed the fact that it's important to pay attention to whether the method
 is _destructive_ (i.e., it _mutates_ the array) or _nondestructive_. Another
 factor to pay attention to is what the _return value_ of each of these methods
-is. Be sure to follow along and experiment with each method in [repl.it][] until
+is. Be sure to follow along and experiment with each method in [replit][] until
 you understand how it works, what it does to the original array, and what it
 returns.
 
@@ -133,7 +133,7 @@ original one — our `coolCities` and `coolCats` `Array`s were untouched. Becaus
 we didn't modify the original array, in order to save the results of our work we
 had to assign it to a variable.
 
-Be sure to experiment with the spread operator in [repl.it][] until you're
+Be sure to experiment with the spread operator in [replit][] until you're
 comfortable with how it works — it will come in handy later!
 
 ## Remove Elements from an Array
@@ -513,7 +513,7 @@ tools you need to manipulate `Array`s in very complex ways.
   - [`.slice()`][slice]
   - [`.splice()`][splice]
 
-[repl.it]: https://repl.it/languages/javascript
+[replit]: https://replit.com/languages/javascript
 [array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 [slice]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice
 [splice]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice

@@ -413,13 +413,13 @@ any number of elements anywhere within an `Array` by passing 0 as the second
 argument. Here we're adding new books to our library in alphabetical order:
 
 ```js
-const books = ["The Bluest Eye", "Kindred", "The Grass Dancer"];
+const books = ["Beloved", "Giovanni’s Room", "The Color Purple", "The Grass Dancer"];
 
-books.splice(2, 0, "Giovanni’s Room", "The Color Purple");
+books.splice(2, 0,  "Kindred", "Love Medicine");
 // => []
 
 books;
-// => ["The Bluest Eye", "Kindred", "Giovanni’s Room", "The Color Purple", "The Grass Dancer"]
+// => ['Beloved', 'Giovanni’s Room', 'Kindred', 'Love Medicine', 'The Color Purple', 'The Grass Dancer']
 ```
 
 Notice that `.splice()` returns an empty `Array` when we provide a second
